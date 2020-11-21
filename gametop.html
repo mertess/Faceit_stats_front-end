@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/gametop.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container-fluit">
+    <div class="row-1">
+      <nav class="navbar navbar-expand-lg">
+        <img src="assets/icon.png" class="mx-3"/>
+        <a class="navbar-brand" href="index.html">FStats.com</a>
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="games.html">Games</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-4 my-5">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">FILTER</h5>
+            <form>
+              <div class="form-group">
+                <label>LVL</label>
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+              </div>
+              <div class="form-group form-check right-align-cardelem">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Filter by lvl</label>
+              </div>
+              <div class="form-group">
+                <label>Elo filter</label>
+                <div class="row">
+                  <div class="col">
+                    <input type="number" class="form-control" placeholder="From elo">
+                  </div>
+                  <div class="col">
+                    <input type="number" class="form-control" placeholder="To elo">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <button type="submit" class="btn btn-primary">Find</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col my-5">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Nickname</th>
+              <th scope="col">Lvl</th>
+              <th scope="col">
+                <label class="marg">Count elo</label>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">11</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">12</th>
+              <td>
+                <img src="assets/faceit-logo-1.png" alt="playericon" width="40" height="40" />
+                <a class="href-user" href="userpage.html">Mark</a>
+              </td>
+              <td>
+                <img src=assets/lvl10.jpg alt="playerlvlicon" width="40" height="40" />
+              </td>
+              <td>
+                <label class="elo">2000</label>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row-1 text-center">
+      <div class="col">
+        <nav>
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link" href="#"><<</a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">4</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">5</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">>></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="row-1 text-center">
+      <hr />
+      <p>
+        © 2020 FStats Inc.
+        <a href="https://github.com/mertess" class="mx-4">GitHub</a>
+        <a href="***">Steam</a>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>

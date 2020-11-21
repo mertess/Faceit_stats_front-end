@@ -1,0 +1,74 @@
+div.card{
+    margin: 60pt auto 10pt auto;
+    background-color: #C4C4C45F;
+    width: 920pt;
+}
+
+label{
+    color: white;
+}
+
+.nickname{
+    margin-top: 10pt;
+    margin-left: 152pt;
+}
+
+img{
+    margin-left: 13pt;
+}
+
+p.stats{
+    margin-top: 18pt;
+    color: white;
+}
+
+p{
+    color: white;  
+}
+
+button.btn{
+    margin-top: 20pt;
+    border-color: #FC5E00;
+    background-color: #FC5E00;
+    font-size: 12pt;
+    padding: 3pt 7pt 3pt 7pt;
+}
+
+div.progress-bar{
+    background-color: #FC5E00;
+}
+
+div.lvl-progress{
+    height: 80pt;
+}
+
+table td, table th{
+    color:white;
+}
+
+table.table{
+    margin: 10pt auto;
+    width: 920pt;
+    background-color: #1F1F1F;
+}
+.line{
+    position: absolute;
+    border-right: 1px dashed#FC5E00;
+    z-index: 10;
+    height: 50pt;
+    top: -12pt;
+    padding: 25pt 43pt 0pt 30pt;
+}
+
+.p-last-lvl{
+    position: absolute;
+    top: -12pt;
+    padding: 25pt 43pt 0pt 30pt;
+}
+
+h3.label-stats{
+    position: relative;
+    top: 50pt;
+    left: -10pt;
+}
+

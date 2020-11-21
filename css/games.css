@@ -1,0 +1,31 @@
+div.card-body a.btn{
+    background-color: #1F1F1F;
+    border-color: #FC5E00;
+    color: #FC5E00;
+}
+
+p.card-text{
+    font-size: 16pt;
+}
+
+div.card img{
+    margin: 10pt 40pt 0 40pt;
+}
+
+h3{
+    color: white;
+    width: 200pt;
+}
+
+div.margin{
+    height: 100pt;
+}
+
+div.row div.col-8{
+    margin: 50pt, auto;
+}
+
+div.col div.card{
+    margin: 40pt auto !important;
+    background-color: #fffffff0;
+}

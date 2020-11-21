@@ -1,0 +1,61 @@
+div.margin{
+    height: 100pt;
+}
+
+input.form-control::placeholder{
+    font-size: 14pt;
+    color: #FC5E00;
+}
+
+input.btn, button.btn{
+    color: #FC5E00;
+    background-color: transparent;
+    border-color: #FC5E00;
+}
+
+nav a.page-link{
+    background-color: transparent;
+    color: #FC5E00;
+    border-color:  #FC5E00;
+}
+
+nav li.page-item.active a.page-link{
+    background-color:  #FC5E00;
+    border-color:  #FC5E00;
+}
+
+nav a.page-link:hover{
+    color:white;
+    background-color: transparent;
+    border-color: #FC5E00;
+}
+
+h3{
+    color: white;
+    width: 200pt;
+}
+
+div.row.justify-content-start div.col-4{
+    position: absolute;
+    left: 50pt;
+}
+
+div.col div.card{
+    margin: 40pt auto !important;
+    background-color: #fffffff0;
+}
+
+div.card-body input.btn{
+    background-color: #1F1F1F;
+    border-color: #FC5E00;
+    color: #FC5E00;
+}
+
+p.card-text{
+    font-size: 16pt;
+}
+
+div.card img{
+    margin: 10pt 40pt 0 40pt;
+}
+

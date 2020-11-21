@@ -1,0 +1,35 @@
+body{
+    background-image: url(css_assets/background.jpg);
+    background-size: 100% 100%;
+}
+
+nav.navbar{
+    background-color: #FC5E00;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 0 30pt #FC5E00;
+}
+
+nav a.navbar-brand{
+    font-size: 18pt;
+    color: white !important;
+    margin-right: 5%;
+}
+
+nav a.nav-link{
+    font-size: 14pt;
+    color: white !important;
+    padding-bottom: 0%;
+    margin-right: 25pt;
+}
+
+div.row-1 p{
+    color: white;
+}
+
+hr{
+    background-color: white;
+}

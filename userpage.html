@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/userpage.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row-1">
+            <nav class="navbar navbar-expand-lg">
+                <img src="assets/icon.png" class="mx-3"/>
+                <a class="navbar-brand" href="index.html">FStats.com</a>
+                <div class="navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="games.html">Games</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row my-5">
+            <div class="card">
+                <div class="col">
+                    <div class="row-1">
+                        <label class="nickname">
+                            <h3>Nickname</h3>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/faceit-logo-1.png" alt="playericon" width="130" height="130" />
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-2">
+                                    <label>Lifetime stats:</label>
+                                    <p class="stats">K/D: *</p>
+                                    <p class="stats">Winrate: *</p>
+                                </div>
+                                <div class="col-4">
+                                    <label>Last 20 matches stats:</label>
+                                    <p class="stats">K/D: *</p>
+                                    <p class="stats">Winrate: *</p>
+                                </div>
+                                <div class="col-2">
+                                    <button class="btn btn-primary" type="button">Faceit profile</button>
+                                    <button class="btn btn-primary my-4" type="button">Steam profile</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-2 lvl-progress">
+                    <div class="col">
+                        <label>To reach level x you need yyy points</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                        <div class="row lvl-labels">
+                            <div class="col text-center">
+                                <label><small>0 - 800</small></label>
+                                <p class="line">1</p>
+                            </div>
+                            <div class="col text-center">
+                                <label><small>800-950</small></label>
+                                <p class="line">2</p>
+                            </div>
+                            <div class="col text-center">
+                                <label><small>950-1100</small></label>
+                                <p class="line">3</p>
+                            </div>
+                            <div class="col text-center">
+                                <label><small>1100-1250</small></label>
+                                <p class="line">4</p>
+                            </div>
+                            <div class="col text-center">
+                                <label><small>1250-1400</small></label>
+                                <p class="line">5</p>
+                            </div>
+                            <div class="col text-center">
+                                <label><small>1400-1550</small></label>
+                                <p class="line">6</p>
+                            </div>
+                            <div class="col text-center">
+                                <label><small>1550-1700</small></label>
+                                <p class="line">7</p>
+                            </div>
+                            <div class="col text-center">
+                                <label><small>1700-1850</small></label>
+                                <p class="line">8</p>
+                            </div>
+                            <div class="col text-center">
+                                <label><small>1850-2000</small></label>
+                                <p class="line">9</p>
+                            </div>
+                            <div class="col text-center">
+                                <label><small>2000-2000+</small></label>
+                                <p class="p-last-lvl">10</p>
+                            </div>
+                        </div>     
+                        <label>
+                            <h3 class="label-stats">Last games stats</h3>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Score</th>
+                        <th scope="col">K/D/A</th>
+                        <th scope="col">Count elo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>18.09.20</td>
+                        <td>16:2</td>
+                        <td>31/20/6</td>
+                        <td>1400 (+25)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>18.09.20</td>
+                        <td>16:2</td>
+                        <td>31/20/6</td>
+                        <td>1400 (+25)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>18.09.20</td>
+                        <td>16:2</td>
+                        <td>31/20/6</td>
+                        <td>1400 (+25)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>18.09.20</td>
+                        <td>16:2</td>
+                        <td>31/20/6</td>
+                        <td>1400 (+25)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>18.09.20</td>
+                        <td>16:2</td>
+                        <td>31/20/6</td>
+                        <td>1400 (+25)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>18.09.20</td>
+                        <td>16:2</td>
+                        <td>31/20/6</td>
+                        <td>1400 (+25)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>18.09.20</td>
+                        <td>16:2</td>
+                        <td>31/20/6</td>
+                        <td>1400 (+25)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>18.09.20</td>
+                        <td>16:2</td>
+                        <td>31/20/6</td>
+                        <td>1400 (+25)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>18.09.20</td>
+                        <td>16:2</td>
+                        <td>31/20/6</td>
+                        <td>1400 (+25)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>18.09.20</td>
+                        <td>16:2</td>
+                        <td>31/20/6</td>
+                        <td>1400 (+25)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row-1 text-center">
+        <hr />
+        <p>
+            © 2020 FStats Inc.
+            <a href="https://github.com/mertess" class="mx-4">GitHub</a>
+            <a href="***">Steam</a>
+        </p>
+    </div>
+    </div>
+</body>
+
+</html>

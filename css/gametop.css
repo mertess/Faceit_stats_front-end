@@ -1,0 +1,106 @@
+div.card{
+    position: fixed;
+    top: 100pt;
+    left: 10pt;
+    background-color: #C4C4C417;
+}
+
+h5{
+    color: #FC5E00;
+    text-align: center;
+}
+
+div.card{
+    border-radius: 5%;
+}
+
+.right-align-cardelem{
+    margin: 0 0 0 111pt !important;
+}
+
+select.form-control{
+    background-color: transparent;
+    border-color: #FC5E00;
+    color: white;
+}
+
+input.form-control{
+    background-color: transparent;
+    border-color: #FC5E00;
+    color: white;
+}
+
+
+button.btn{
+    position: relative;
+    color: white;
+    background-color: transparent;
+    border-color: #FC5E00;
+    width: 185pt;
+    top: 15pt;
+}
+
+nav li.page-item.active a.page-link{
+    background-color:  #FC5E00;
+    border-color:  #FC5E00;
+}
+
+nav a.page-link{
+    color:#FC5E00;
+    background-color: transparent;
+    border-color: #FC5E00;
+}
+
+nav a.page-link:hover{
+    color:white;
+    background-color: transparent;
+    border-color: #FC5E00;
+}
+
+table{
+    position: relative;
+    top: 70pt;
+    right: 60pt;
+    background-color: #1F1F1F;
+    border-color: white;
+}
+
+input.form-control::placeholder, 
+form label,
+label,
+table th{
+    color:white;
+}
+
+td{
+    margin-right: 10pt;
+}
+
+label.elo{
+    position: relative;
+    left: 33pt;
+    top: 5pt;
+}
+
+label.marg{
+    position: relative;
+    left: 20pt;
+}
+
+img{
+    position: relative;
+    right: 7pt;
+}
+
+nav ul.pagination{
+    position: relative;
+    top: 20pt;
+}
+
+div.row-1.text-center{
+    height: 50pt;
+}
+
+.href-user{
+    color: white;
+}
