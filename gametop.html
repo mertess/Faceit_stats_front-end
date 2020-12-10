@@ -8,16 +8,19 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/gametop.css">
   <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+  <script src="js/site.js"></script>
 </head>
 
 <body>
   <div class="container-fluit">
     <div class="row-1">
       <nav class="navbar navbar-expand-lg">
-        <img src="assets/icon.png" class="mx-3"/>
+        <img src="assets/icon.png" class="mx-3" />
         <a class="navbar-brand" href="index.html">FStats.com</a>
         <div class="navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
@@ -36,39 +39,39 @@
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">FILTER</h5>
-            <form>
+            <form method="GET">
               <div class="form-group">
                 <label>LVL</label>
-                <select class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                  <option>6</option>
-                  <option>7</option>
-                  <option>8</option>
-                  <option>9</option>
-                  <option>10</option>
+                <select class="form-control" name="Lvl">
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
                 </select>
               </div>
               <div class="form-group form-check right-align-cardelem">
-                <input type="checkbox" class="form-check-input">
+                <input type="checkbox" class="form-check-input" name="IsFilterByLvl" value="true">
                 <label class="form-check-label">Filter by lvl</label>
               </div>
               <div class="form-group">
                 <label>Elo filter</label>
                 <div class="row">
                   <div class="col">
-                    <input type="number" class="form-control" placeholder="From elo">
+                    <input type="number" class="form-control" placeholder="From elo" name="FromElo">
                   </div>
                   <div class="col">
-                    <input type="number" class="form-control" placeholder="To elo">
+                    <input type="number" class="form-control" placeholder="To elo" name="ToElo">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col text-center">
-                    <button type="submit" class="btn btn-primary">Find</button>
+                    <button type="submit" class="btn btn-primary" id="submit">Find</button>
                   </div>
                 </div>
               </div>
@@ -254,7 +257,8 @@
         <nav>
           <ul class="pagination justify-content-center">
             <li class="page-item">
-              <a class="page-link" href="#"><<</a>
+              <a class="page-link" href="#">
+                <<< /a>
             </li>
             <li class="page-item active">
               <a class="page-link" href="#">1</a>
@@ -288,5 +292,4 @@
     </div>
   </div>
 </body>
-
 </html>
