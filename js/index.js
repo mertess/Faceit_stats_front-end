@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () =>{
       {
           Swal.fire({
               icon: 'error',
-              title: 'Input field data error'
+              title: 'Fill in the username field'
           })
       }
       else
